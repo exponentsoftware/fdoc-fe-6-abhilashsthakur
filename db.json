@@ -1,0 +1,131 @@
+{
+  "Albums": [
+    {
+      "id": 1,
+      "artist": "artist1",
+      "album": "album1",
+      "file": "rob23@gmail.com"
+    },
+    {
+      "artist": "artist2",
+      "album": "aalbum2",
+      "id": 2
+    },
+    {
+      "artist": "artis3",
+      "album": "album3",
+      "id": 3
+    },
+    {
+      "artist": "artist4",
+      "album": "album4",
+      "id": 4
+    },
+    {
+      "artist": "artist10",
+      "album": "ablum10",
+      "id": 5
+    },
+    {
+      "artist": "artist11",
+      "album": "album11",
+      "id": 6
+    },
+    {
+      "artist": "artist9",
+      "album": "alubm9",
+      "id": 7
+    },
+    {
+      "artist": "",
+      "album": "alubm9",
+      "id": 8
+    },
+    {
+      "artist": "",
+      "album": "xyz",
+      "id": 9
+    },
+    {
+      "artist": "",
+      "album": "1234",
+      "id": 10
+    },
+    {
+      "artist": "",
+      "album": "aa",
+      "id": 11
+    },
+    {
+      "artist": "",
+      "album": "",
+      "id": 12
+    },
+    {
+      "artist": "",
+      "album": "alubm9",
+      "id": 13
+    },
+    {
+      "artist": "",
+      "album": "2222222222222222",
+      "id": 14
+    }
+  ],
+  "user": [
+    {
+      "username": "a",
+      "password": "c",
+      "cPassword": "c",
+      "id": 1
+    },
+    {
+      "username": "a",
+      "password": "vc",
+      "cPassword": "d",
+      "id": 2
+    },
+    {
+      "username": "a",
+      "password": "vc",
+      "cPassword": "d",
+      "id": 3
+    },
+    {
+      "username": "1111",
+      "password": "22223",
+      "cPassword": "333",
+      "id": 4
+    },
+    {
+      "username": "000000000",
+      "password": "000000000000",
+      "cPassword": "",
+      "id": 5
+    },
+    {
+      "username": "1",
+      "password": "2",
+      "cPassword": "2",
+      "id": 6
+    },
+    {
+      "username": "abc",
+      "password": "abc",
+      "cPassword": "abc",
+      "id": 7
+    },
+    {
+      "username": "abc",
+      "password": "abc",
+      "cPassword": "abc",
+      "id": 8
+    },
+    {
+      "username": "a",
+      "password": "b",
+      "cPassword": "b",
+      "id": 9
+    }
+  ]
+}
