@@ -6,14 +6,14 @@ import AddAlbum from '../addAlbum/AddAlbum';
 import Playlist from '../playList/PlayList';
 
 import WithProtected from '../Protected/WithProtected';
-import Register from '../Register/Register';
+import User from './../Auth/User';
 
 function MyRoute() {
     return (
         <Switch>
             <Route exact path="/" component={ViewAlbum} />
             <Route exact path="/viewalbums" component={ViewAlbum} />
-            <Route exact path="/register" component={Register} />
+            <Route exact path="/user" component={User} />
             <WithProtected exact path="/addalbum" component={AddAlbum}/>
             <Route  path={"/:id"}  component={Playlist}/>  
           </Switch>
