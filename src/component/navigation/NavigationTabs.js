@@ -14,6 +14,9 @@ function NavigationTabs() {
             <li className="nav-item">
                 <Link to='/playlist' className="nav-link">Playlist</Link>
             </li>
+            <li className="nav-item">
+                <Link to='/register' className="nav-link">Register</Link>
+            </li>
         </ul>
     )
 }

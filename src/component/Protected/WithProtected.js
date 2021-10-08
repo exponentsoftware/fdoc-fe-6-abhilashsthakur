@@ -1,15 +1,16 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Route, Redirect } from 'react-router-dom';
 
 function WithProtected({ component: Component, ...rest }) {
-    const isAuth = false;
+    const [Auth,setAuth]=useState(true)
+    const isAuth = Auth;
     return (
         <Route
             {...rest}
-            render={props => (!isAuth)
+            render={props => (isAuth)
                 ? (<Component {...props} />)
 
-                : <Redirect to={{ pathname: '/' }} />
+                : <Redirect to={{ pathname: '/register' }} />
             }
 
         />
